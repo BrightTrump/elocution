@@ -1376,8 +1376,8 @@
 }
 
 .section-team-2 {
-  background-color: rgb(245, 244, 244);
-  padding-bottom: 20em;
+  background-color: white;
+  padding-bottom: 2em;
 }
 .section-team-2 .team-2-div {
   text-align: center;
@@ -1405,63 +1405,99 @@
   padding-bottom: 5em;
 }
 .section-team-2 .team-2-card {
-  margin: 0.2em 5em 12em 7em;
   display: flex;
+  gap: 10em;
+  margin: 0.2em 5em 10em 7em;
 }
 .section-team-2 .team-2-card .card {
-  background-color: white;
+  background-color: rgb(254, 255, 253);
 }
-.section-team-2 .team-2-card .card .card-div {
-  display: block;
-  width: 20vw;
-  height: 40vh;
-  position: relative;
-  padding: o;
+.section-team-2 .team-2-card .card .block-div {
+  padding: 1em 1em 2em 1em;
+  text-align: center;
 }
-.section-team-2 .team-2-card .card .card-div .team-2-img {
+.section-team-2 .team-2-card .card .block-div .img-icon {
+  padding-bottom: 2em;
+}
+.section-team-2 .team-2-card .card .block-div .img-icon .team-2-img {
   width: 20vw;
   height: 40vh;
   border-radius: 50%;
-  margin-bottom: 2em;
 }
-.section-team-2 .team-2-card .card .card-div .socia-icon {
+.section-team-2 .team-2-card .card .block-div .name {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+.section-team-2 .team-2-card .card .block-div .name-desc {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.section-team-2 .team-2-card .card .block-div .socia-icon {
   display: flex;
   gap: 2em;
-  padding: 0 0 3em 4.5em;
+  padding: 0 0 3em 5em;
 }
-.section-team-2 .team-2-card .card .card-div .socia-icon .social-media .footer-brands {
+.section-team-2 .team-2-card .card .block-div .socia-icon .social-media {
   font-size: 2em;
-}
-.section-team-2 .team-2-card .card .card-div .socia-icon .social-media .footer-brands:hover {
-  color: black;
-}
-.section-team-2 .team-2-card .card .card-div .desc {
-  text-align: center;
-}
-.section-team-2 .team-2-card .card .card-div .desc .card-h1 {
-  margin-bottom: 0.5em;
-}
-.section-team-2 .team-2-card .card .card-div .desc .card-desc {
-  margin-bottom: 2em;
-}
-.section-team-2 .team-2-card .card .card-div .details {
-  display: flex;
-  gap: 1em;
-  margin-bottom: 1em;
-}
-.section-team-2 .team-2-card .card .card-div .details .details-div .details-p {
-  font-size: 1.2em;
-}
-.section-team-2 .team-2-card .card .card-div .details .details-div .link {
-  text-decoration: none;
-  color: black;
-}
-.section-team-2 .team-2-card .card .card-div .details .details-div .link:hover {
   color: var(--primary-color);
+}
+.section-team-2 .team-2-card .card .block-div .socia-icon .social-media .footer-brands:hover {
+  color: black;
+}
+.section-team-2 .team-2-card .card .details-div {
+  padding-bottom: 2em;
+}
+.section-team-2 .team-2-card .card .details-div .details-p {
+  font-size: 1.1em;
+  padding: 0 1em 1.5em 1em;
+}
+.section-team-2 .team-2-card .card .details-div .details-p .link {
+  color: black;
+  text-decoration: none;
+}
+.section-team-2 .team-2-card .card .details-div .details-p .link:hover {
+  color: var(--primary-color);
+}
+.section-team-2 .team-2-card .desc-card .about-me {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.section-team-2 .team-2-card .desc-card .abt-desc {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: 3em;
+}
+.section-team-2 .team-2-card .desc-card .work-time {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.section-team-2 .team-2-card .desc-card .durablock {
+  display: flex;
+  gap: 3em;
+}
+.section-team-2 .team-2-card .desc-card .durablock .duration {
+  font-size: 1.3em;
+}
+.section-team-2 .team-2-card .desc-card .durablock .duration .schedule {
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.section-team-2 .team-2-card .desc-card .durablock .duration .hour {
+  padding-bottom: 1em;
+}
+.section-team-2 .team-2-card .desc-card .experience {
+  font-size: 2em;
+  padding: 1.5em 0 1em 0;
+}
+.section-team-2 .team-2-card .desc-card .exp-desc {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: 3em;
 }
 
 .section-team-3 {
   padding-bottom: 3em;
+  background-color: rgb(247, 243, 243);
 }
 .section-team-3 .section-team-3-div {
   text-align: center;
@@ -1499,7 +1535,7 @@
 }
 .section-team-3 .section-team-3-card .section-team-3-card2 {
   border-radius: 0.5em;
-  background-color: whitesmoke;
+  background-color: white;
   padding: 1em 0.3em;
   width: 30%;
 }
@@ -1526,4 +1562,27 @@
 }
 .section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div .section-team-3-info .section-team-3-card-desc .email-link {
   color: var(--primary-color);
+}
+
+.section-1-testimonial {
+  background-color: var(--primary-color);
+  padding: 7em 0 8em 0;
+}
+.section-1-testimonial .test-p {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  padding-bottom: 0.5em;
+}
+.section-1-testimonial .test-li {
+  text-align: center;
+  list-style-type: none;
+  color: white;
+}
+.section-1-testimonial .test-li .test-a {
+  color: white;
+  text-decoration: none;
+}
+.section-1-testimonial .test-li .test-a:hover {
+  color: black;
 }/*# sourceMappingURL=styles.css.map */
