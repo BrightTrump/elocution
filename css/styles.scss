@@ -1455,6 +1455,7 @@
       .block-div {
         padding: 1em 1em 2em 1em;
         text-align: center;
+        justify-content: center;
         .img-icon {
           padding-bottom: 2em;
           .team-2-img {
@@ -1474,7 +1475,7 @@
         .socia-icon {
           display: flex;
           gap: 2em;
-          padding: 0 0 3em 5em;
+          padding: 0 0 3em 4em;
           .social-media {
             font-size: 2em;
             color: var(--primary-color);
@@ -1489,7 +1490,7 @@
       .details-div {
         padding-bottom: 2em;
         .details-p {
-          font-size: 1.1em;
+          font-size: 1em;
           padding: 0 1em 1.5em 1em;
           .link {
             color: black;
