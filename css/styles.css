@@ -1217,7 +1217,7 @@
 }
 .section-3-sersubs .sersubs-container {
   display: flex;
-  gap: 2em;
+  gap: 3em;
   padding: 1em 5em 2em 5em;
 }
 .section-3-sersubs .sersubs-button-parent {
@@ -1688,7 +1688,7 @@
 }
 .section-3-testimonial .test-container {
   display: flex;
-  gap: 2em;
+  gap: 3em;
   padding: 1em 5em 2em 5em;
 }
 .section-3-testimonial .button-parent {
