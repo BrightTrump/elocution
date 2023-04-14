@@ -186,7 +186,7 @@
       }
       .content-desc {
         font-size: 1.2em;
-        line-height: 2em;
+        line-height: 1.5em;
         margin-bottom: 2em;
       }
       .about-us-button {
@@ -360,7 +360,7 @@
     .view-testimonial {
       padding: 1.1em 1.3em;
       background-color: var(--primary-color);
-      border-radius: .5em;
+      border-radius: 0.5em;
       font-weight: bold;
       text-decoration: none;
       font-size: 1em;
@@ -1484,7 +1484,7 @@
         .socia-icon {
           display: flex;
           gap: 2em;
-          padding: 0 0 3em 3.5em;
+          padding: 0 0 3em 4em;
           .social-media {
             font-size: 2em;
             color: var(--primary-color);

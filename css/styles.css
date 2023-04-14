@@ -187,7 +187,7 @@
 }
 .section-2 .section-2-container .section-2-content .content-desc {
   font-size: 1.2em;
-  line-height: 2em;
+  line-height: 1.5em;
   margin-bottom: 2em;
 }
 .section-2 .section-2-container .section-2-content .about-us-button {
@@ -1445,7 +1445,7 @@
 .section-team-2 .team-2-card .card .block-div .socia-icon {
   display: flex;
   gap: 2em;
-  padding: 0 0 3em 3.5em;
+  padding: 0 0 3em 4em;
 }
 .section-team-2 .team-2-card .card .block-div .socia-icon .social-media {
   font-size: 2em;
