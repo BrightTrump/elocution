@@ -1218,12 +1218,12 @@
 .section-3-sersubs .sersubs-container {
   display: flex;
   gap: 2em;
-  padding: 1em 5em 2em 5em;
+  padding: 1em 3em 2em 3em;
 }
 .section-3-sersubs .sersubs-button-parent {
   display: flex;
   gap: 2em;
-  margin: 7em 0 0 38em;
+  padding: 7em 0 2em 35em;
 }
 .section-3-sersubs .sersubs-button-parent .button-container .sersubs-button {
   list-style-type: none;
@@ -1689,7 +1689,7 @@
 .section-3-testimonial .test-container {
   display: flex;
   gap: 2em;
-  padding: 1em 5em 2em 5em;
+  padding: 1em 3em 2em 3em;
 }
 .section-3-testimonial .button-parent {
   display: flex;
