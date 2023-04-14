@@ -317,7 +317,7 @@
 .section-4 .Testimonial-container .Testimonial-content {
   background-color: rgb(248, 248, 253);
   border-radius: 1em;
-  padding: 2.5em 0 2em 2.5em;
+  padding: 2.5em 0 5em 2.5em;
 }
 .section-4 .Testimonial-container .Testimonial-content .Testimonial-4-div {
   display: flex;
@@ -354,8 +354,17 @@
   font-size: 1.2em;
 }
 .section-4 .Testimonial-container .view-testimonial {
+  padding: 1.1em 1.3em;
+  background-color: var(--primary-color);
+  border-radius: 0.5em;
   font-weight: bold;
+  text-decoration: none;
   font-size: 1em;
+  color: white;
+}
+.section-4 .Testimonial-container .view-testimonial:hover {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .section-5 {
@@ -1436,7 +1445,7 @@
 .section-team-2 .team-2-card .card .block-div .socia-icon {
   display: flex;
   gap: 2em;
-  padding: 0 0 3em 4em;
+  padding: 0 0 3em 3.5em;
 }
 .section-team-2 .team-2-card .card .block-div .socia-icon .social-media {
   font-size: 2em;
