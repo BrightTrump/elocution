@@ -1830,7 +1830,9 @@
   color: var(--secondary-color);
 }
 .section-2-contact form {
-  margin: 0 0 0 5em;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
   font-size: 1.2em;
 }
 .section-2-contact form .form-block {
