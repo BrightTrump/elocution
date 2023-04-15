@@ -80,10 +80,12 @@
   position: absolute;
   background-color: white;
   list-style-type: none;
-  padding: 0;
+  width: 12em;
+  padding: 3em 0 1em 0.5em;
 }
 .navbar .container .dropdown .dropdown-link {
-  padding: 0 0 1em 0;
+  padding: 0.5em 0 1em 0.3em;
+  text-align: left;
 }
 
 .linkdrop {
@@ -415,15 +417,19 @@
   padding: 0;
   display: flex;
   gap: 1em;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .footer .footer-display .footer-div .icon .icon-card .icon-card-list {
   list-style-type: none;
 }
 .footer .footer-display .footer-div .icon .icon-card .icon-card-list .footer-brands {
+  background-color: white;
+  border-radius: 0.2em;
   color: var(--primary-color);
+  padding: 0.3em 0.3em 0.2em 0.3em;
 }
 .footer .footer-display .footer-div .icon .icon-card .icon-card-list .footer-brands:hover {
+  background-color: var(--primary-color);
   color: white;
 }
 .footer .footer-display .footer-div .email .email-link {
@@ -494,6 +500,18 @@
   border-radius: 0.3em;
   background-color: rgb(82, 79, 79);
   color: white;
+}
+.footer .footer-display .col-3 .form .suscribe {
+  background-color: var(--primary-color);
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 0.7em 1.8em;
+}
+.footer .footer-display .col-3 .form .suscribe:hover {
+  background-color: white;
+  color: var(--primary-color);
 }
 .footer .footer-display .col-3 .col-3-consult {
   display: flex;
@@ -1728,6 +1746,124 @@
 }
 .section-3-testimonial .button-parent .button-container .test-button .test-button-link:hover {
   background-color: var(--secondary-color);
+}
+
+.section-1-contact {
+  background-color: var(--primary-color);
+  padding: 7em 0 8em 0;
+}
+.section-1-contact .cont-p {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  padding-bottom: 0.5em;
+}
+.section-1-contact .cont-li {
+  text-align: center;
+  list-style-type: none;
+  color: white;
+}
+.section-1-contact .cont-li .cont-a {
+  color: white;
+  text-decoration: none;
+}
+.section-1-contact .cont-li .cont-a:hover {
+  color: black;
+}
+
+.section-2-contact {
+  background-color: rgb(245, 244, 244);
+  padding-bottom: 10em;
+}
+.section-2-contact .cont-div {
+  text-align: center;
+  max-width: 950px;
+  justify-items: center;
+  margin: auto;
+}
+.section-2-contact .cont-div .cont {
+  font-size: 1em;
+  color: rgb(176, 176, 199);
+  text-transform: uppercase;
+  padding: 7em 0 3em 0;
+  text-align: center;
+}
+.section-2-contact .cont-div .cont-h1 {
+  font-size: 2.5em;
+  padding: 0 0 1em 0;
+}
+.section-2-contact .cont-div .cont-h1 span {
+  color: var(--primary-color);
+}
+.section-2-contact .cont-div .cont-desc {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 7em;
+}
+.section-2-contact .section-2-div {
+  margin: 0.2em 5em 12em 5em;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+.section-2-contact .section-2-div .cont-div-2 {
+  text-align: left;
+  padding: 0;
+}
+.section-2-contact .section-2-div .cont-div-2 .cont-address {
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.section-2-contact .section-2-div .cont-div-2 .cont-desc-2 {
+  list-style-type: none;
+  line-height: 1.5em;
+  text-align: left;
+}
+.section-2-contact .section-2-div .cont-div-2 .cont-desc-2 .reach-us {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.section-2-contact .section-2-div .cont-div-2 .cont-desc-2 .reach-us:hover {
+  color: var(--secondary-color);
+}
+.section-2-contact form {
+  margin: 0 0 0 5em;
+  font-size: 1.2em;
+}
+.section-2-contact form .form-block {
+  display: flex;
+  gap: 3em;
+  padding: 0 0 5em 0;
+}
+.section-2-contact form .form-block .form-name .text {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 0.5em;
+  padding: 2em 30em 2em 1em;
+}
+.section-2-contact form .check {
+  display: flex;
+  gap: 0.7em;
+  padding: 2em 0 4em 0;
+}
+.section-2-contact form .check .checkbox {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 15em;
+}
+.section-2-contact form .form-button {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  border-radius: 1em;
+  color: white;
+  padding: 1.2em 1.3em;
+}
+.section-2-contact form .form-button:hover {
+  color: var(--primary-color);
+  background-color: rgb(214, 212, 212);
 }
 
 .section-1-faqs {
