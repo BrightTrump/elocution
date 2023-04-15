@@ -696,9 +696,9 @@
 }
 
 .section-abt-7 {
-  background-color: #242323;
+  background-color: #e7e0e0;
   background-size: contain;
-  padding: 10em 5em 5em 5em;
+  padding: 10em 5em 7em 5em;
 }
 .section-abt-7 .section-abt-7-container {
   display: flex;
@@ -710,8 +710,7 @@
 .section-abt-7 .section-abt-7-container .section-abt-7-content .p-get {
   line-height: 1.2em;
   font-weight: bold;
-  font-size: 4.8em;
-  color: white;
+  font-size: 4em;
   margin-bottom: 1em;
 }
 .section-abt-7 .section-abt-7-container .section-abt-7-content .p-get span {
@@ -720,7 +719,6 @@
 .section-abt-7 .section-abt-7-container .section-abt-7-content .content-desc {
   font-size: 1.2em;
   line-height: 2em;
-  color: white;
   margin-bottom: 2em;
 }
 .section-abt-7 .section-abt-7-container .section-abt-7-content .about-us-button {
@@ -740,17 +738,14 @@
   background-color: white;
   color: var(--primary-color);
 }
-.section-abt-7 .section-abt-7-container .section-abt-7-card .section-abt-7-card2 {
-  display: block;
-  gap: 2em;
-  padding: 3em;
+.section-abt-7 .section-abt-7-container .img-block {
+  width: 100%;
+  height: 100%;
 }
-.section-abt-7 .section-abt-7-container .section-abt-7-card .section-abt-7-card2 .section-abt-7-card3 {
-  background-color: white;
-}
-.section-abt-7 .section-abt-7-container .section-abt-7-card .section-abt-7-card2 .section-abt-7-card3 .section-abt-7-card-div {
-  display: flex;
-  gap: 1em;
+.section-abt-7 .section-abt-7-container .img-block .img-div img {
+  width: 35vw;
+  height: 90vh;
+  border-radius: 2em;
 }
 
 .section-abt-8 {
@@ -1197,17 +1192,29 @@
 }
 
 .section-3-sersubs {
+  background-color: rgb(177, 177, 209);
+  margin: 0 2em 0 2em;
+}
+.section-3-sersubs .dic-img {
+  display: flex;
+}
+.section-3-sersubs .dic-img img {
+  width: 32vw;
+  height: 60vh;
+}
+
+.section-4-sersubs {
   background-color: #f1ecec;
   padding: 7em 0 7em 0;
 }
-.section-3-sersubs .sersubs-testi {
+.section-4-sersubs .sersubs-testi {
   font-size: 1em;
   color: rgb(113, 113, 119);
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 3em 0;
 }
-.section-3-sersubs .section-3-sersubs-desc {
+.section-4-sersubs .section-4-sersubs-desc {
   font-size: 1.2em;
   line-height: 1.5em;
   text-align: center;
@@ -1215,20 +1222,20 @@
   margin: auto;
   padding-bottom: 2.5em;
 }
-.section-3-sersubs .sersubs-container {
+.section-4-sersubs .sersubs-container {
   display: flex;
   gap: 2em;
   padding: 1em 3em 2em 3em;
 }
-.section-3-sersubs .sersubs-button-parent {
+.section-4-sersubs .sersubs-button-parent {
   display: flex;
   gap: 2em;
   padding: 7em 0 2em 35em;
 }
-.section-3-sersubs .sersubs-button-parent .button-container .sersubs-button {
+.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button {
   list-style-type: none;
 }
-.section-3-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link {
+.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link {
   background-color: var(--primary-color);
   border-radius: 0.5em;
   color: white;
@@ -1237,7 +1244,7 @@
   font-weight: bold;
   padding: 1em 1.3em;
 }
-.section-3-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link:hover {
+.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link:hover {
   background-color: var(--secondary-color);
 }
 
@@ -1359,6 +1366,18 @@
 }
 .section-3-eti .eti-button-parent .button-container .eti-button .eti-button-link:hover {
   background-color: var(--secondary-color);
+}
+
+.section-4-eti {
+  background-color: rgb(177, 177, 209);
+  margin: 0 2em 0 2em;
+}
+.section-4-eti .dic-img {
+  display: flex;
+}
+.section-4-eti .dic-img img {
+  width: 32vw;
+  height: 60vh;
 }
 
 .section-1-team {
