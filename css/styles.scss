@@ -10,37 +10,45 @@
 }
 
 .navbar {
-  margin: 1.5em 5em 0 5em;
-  align-items: baseline;
+  margin: 1.5em 0 0 5%;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+
   .container {
     display: flex;
+    width: 100%;
+    height: 80px;
     justify-content: space-between;
-    gap: 5em;
     color: black;
     .mobile-menu {
       display: none;
     }
     .logo {
+      width: 10%;
+      height: 80px;
       img {
         width: 4em;
-        height: 8em;
+        height: 4em;
       }
     }
     .navigation {
+      width: 90%;
+      height: 80px;
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
-      gap: 3em;
       font-size: 1em;
       .mobile-menu-exit {
         display: none;
       }
       .primary-nav {
+        width: 80%;
+        height: 80px;
         list-style-type: none;
         display: flex;
         justify-content: space-between;
         text-align: center;
-        gap: 3em;
+        align-items: center;
 
         .links {
           color: black;
@@ -53,11 +61,12 @@
         }
       }
       .secondary-nav {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        gap: 2em;
+        margin-top: 1em;
+        width: 20%;
+        height: 30px;
         align-items: center;
+        list-style-type: none;
+
         .go-premium-cta {
           border-radius: 0.5em;
           font-weight: bold;
@@ -1524,7 +1533,7 @@
 }
 .section-4-eti {
   background-color: rgb(177, 177, 209);
-  margin: 0 2em 0 2em;
+  margin: 0 2em 5em 2em;
   .dic-img {
     display: flex;
     img {
@@ -2034,5 +2043,58 @@
         color: black;
       }
     }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar {
+    margin: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+    .container {
+      width: 90%;
+      height: auto;
+      margin: auto;
+      .logo {
+        width: 6rem;
+        height: auto;
+        img {
+          //width: -webkit-fill-available;
+        }
+      }
+      .navigation {
+        .primary-nav {
+          position: absolute;
+          top: 55%;
+          right: 12%;
+          display: none;
+          .link {
+            .links {
+            }
+          }
+        }
+        .secondary-nav {
+          width: fit-content;
+        }
+      }
+    }
+  }
+  .section-1 {
+    display: none;
+  }
+  .section-2 {
+    display: none;
+  }
+  .section-3 {
+    display: none;
+  }
+  .section-4 {
+    display: none;
+  }
+  .section-5 {
+    display: none;
+  }
+  .footer {
+    display: none;
   }
 }

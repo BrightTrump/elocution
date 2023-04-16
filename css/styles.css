@@ -11,38 +11,47 @@
 }
 
 .navbar {
-  margin: 1.5em 5em 0 5em;
-  align-items: baseline;
+  margin: 1.5em 0 0 5%;
+  align-items: center;
+  height: 80px;
+  width: 90%;
 }
 .navbar .container {
   display: flex;
+  width: 100%;
+  height: 80px;
   justify-content: space-between;
-  gap: 5em;
   color: black;
 }
 .navbar .container .mobile-menu {
   display: none;
 }
+.navbar .container .logo {
+  width: 10%;
+  height: 80px;
+}
 .navbar .container .logo img {
   width: 4em;
-  height: 8em;
+  height: 4em;
 }
 .navbar .container .navigation {
+  width: 90%;
+  height: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 3em;
   font-size: 1em;
 }
 .navbar .container .navigation .mobile-menu-exit {
   display: none;
 }
 .navbar .container .navigation .primary-nav {
+  width: 80%;
+  height: 80px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   text-align: center;
-  gap: 3em;
+  align-items: center;
 }
 .navbar .container .navigation .primary-nav .links {
   color: black;
@@ -55,11 +64,11 @@
           text-decoration: underline black;
 }
 .navbar .container .navigation .secondary-nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 2em;
+  margin-top: 1em;
+  width: 20%;
+  height: 30px;
   align-items: center;
+  list-style-type: none;
 }
 .navbar .container .navigation .secondary-nav .go-premium-cta {
   border-radius: 0.5em;
@@ -1487,7 +1496,7 @@
 
 .section-4-eti {
   background-color: rgb(177, 177, 209);
-  margin: 0 2em 0 2em;
+  margin: 0 2em 5em 2em;
 }
 .section-4-eti .dic-img {
   display: flex;
@@ -1989,4 +1998,50 @@
 }
 .section-1-faqs .faqs-li .faqs-a:hover {
   color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    margin: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+  .navbar .container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .navbar .container .logo {
+    width: 6rem;
+    height: auto;
+  }
+  .navbar .container .navigation .primary-nav {
+    position: absolute;
+    top: 55%;
+    right: 12%;
+    display: none;
+  }
+  .navbar .container .navigation .secondary-nav {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .section-1 {
+    display: none;
+  }
+  .section-2 {
+    display: none;
+  }
+  .section-3 {
+    display: none;
+  }
+  .section-4 {
+    display: none;
+  }
+  .section-5 {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
