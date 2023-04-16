@@ -339,6 +339,7 @@
   font-size: 0.9em;
   font-weight: bold;
   color: var(--primary-color);
+  padding-top: 1em;
 }
 .section-4 .Testimonial-container .Testimonial-content .fas-icon {
   display: flex;
@@ -389,9 +390,105 @@
 }
 .section-5 .pricing-div .pricing-p {
   font-size: 3em;
+  padding-bottom: 1em;
 }
 .section-5 .pricing-div .pricing-p span {
   color: var(--primary-color);
+}
+.section-5 .container {
+  display: flex;
+  gap: 2em;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2em;
+}
+.section-5 .container .content {
+  padding-bottom: 5em;
+  background-color: white;
+  width: 25%;
+}
+.section-5 .container .content .pricing-card {
+  text-align: center;
+  padding: 0;
+}
+.section-5 .container .content .pricing-card .element {
+  padding: 1.5em 0 0.8em 0;
+}
+.section-5 .container .content .pricing-card .desc {
+  font-size: 1.2em;
+  padding: 1em;
+}
+.section-5 .container .content .pricing-card .price {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1.5em;
+  padding: 1em;
+}
+.section-5 .container .content .pricing-card .p-desc {
+  display: block;
+  font-size: 1.2em;
+  padding: 1.5em 0 0 0;
+}
+.section-5 .container .content .pricing-card .get-started {
+  padding-top: 5em;
+}
+.section-5 .container .content .pricing-card .get-started .cont-us {
+  background-color: var(--primary-color);
+  border-radius: 0.5em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 1em 1.5em;
+}
+.section-5 .container .content .pricing-card .get-started .cont-us:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.section-5 .container .content-2 {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 1em;
+  padding: 0 0 5em 0;
+  line-height: 2em;
+  width: 25%;
+}
+.section-5 .container .content-2 .pricing-card {
+  text-align: center;
+  padding: 0;
+}
+.section-5 .container .content-2 .pricing-card .element {
+  padding: 1.5em 0 0.8em 0;
+}
+.section-5 .container .content-2 .pricing-card .desc {
+  font-size: 1.2em;
+  padding: 1em;
+}
+.section-5 .container .content-2 .pricing-card .price {
+  background-color: white;
+  font-size: 1.5em;
+  color: black;
+  padding: 1em;
+}
+.section-5 .container .content-2 .pricing-card .p-desc {
+  display: block;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 1.5em 0 0 0;
+}
+.section-5 .container .content-2 .pricing-card .get-started {
+  padding-top: 5em;
+}
+.section-5 .container .content-2 .pricing-card .get-started .cont-us {
+  background-color: white;
+  border-radius: 0.5em;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 1em 1.5em;
+}
+.section-5 .container .content-2 .pricing-card .get-started .cont-us:hover {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .footer {
@@ -1243,6 +1340,8 @@
 .section-4-sersubs .sersubs-container {
   display: flex;
   gap: 2em;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 1em 3em 2em 3em;
 }
 .section-4-sersubs .sersubs-button-parent {
@@ -1327,7 +1426,7 @@
   font-size: 1.5em;
   padding-bottom: 1.2em;
 }
-.section-2-eti .eti-parent .eti-sub-parent .eti-block .eti-container .eti-fas {
+.section-2-eti .eti-parent .eti-sub-parent .eti-block .eti-fas {
   font-size: 1.2em;
   line-height: 2em;
 }
@@ -1687,6 +1786,7 @@
   font-size: 0.9em;
   font-weight: bold;
   color: var(--primary-color);
+  padding-top: 1em;
 }
 .section-2-testimonial .test-container .test-content .fas-icon {
   display: flex;
