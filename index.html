@@ -17,7 +17,7 @@
     <title>Home</title>
   </head>
   <body>
-    <div class="navbar">
+    <header class="navbar">
       <div class="container">
         <a class="logo" href="#"
           ><img src="images/logo.jpg" alt="Company Logo"
@@ -47,11 +47,15 @@
             </li>
             <li class="link linkdrop">
               <a href="services.html" class="links">Services</a>
-              <ul class="dropdown">
+              <i class="fa-solid fa-caret-down" id="dropdown-icon"></i>
+              <ul class="dropdown" id="dropdown-ul">
                 <li class="dropdown-link">
                   <a href="great-experience.html" class="links"
                     >Great Experience</a
                   >
+                </li>
+                <li class="dropdown-link">
+                  <a href="diction.html" class="links">Our Services</a>
                 </li>
                 <li class="dropdown-link">
                   <a href="diction.html" class="links">Diction Coaching</a>
@@ -88,12 +92,12 @@
           </ul>
         </nav>
       </div>
-    </div>
+    </header>
 
     <section class="section-1">
       <div class="card">
         <h1 class="provide">
-          We <span>Provide</span> the Best value for Individuals
+          We <span>Provide</span> the Best value for Clients
         </h1>
         <p class="prov">
           <i
@@ -101,28 +105,23 @@
             practices, accents and standards</i
           >
         </p>
-        <div class="section-1-button">
-          <div class="sec-button">
-            <a class="sec-button-link-1" href="contact.html">Get started now</a>
-          </div>
-
-          <div class="sec-button">
-            <a class="sec-button-link-2" href="services.html">Our services</a>
-          </div>
+        <div class="button">
+          <a class="button-1" href="contact.html">Get started now</a>
+          <a class="button-2" href="services.html">Our services</a>
         </div>
       </div>
     </section>
 
     <section class="section-2">
-      <div class="section-2-container">
-        <div class="section-2-content">
+      <div class="container">
+        <div class="content">
           <h3 class="welcome">Welcome to actual</h3>
 
           <p class="cal">
             We Are Calculating The <span>Best Opportunities</span> For You
           </p>
 
-          <p class="content-desc">
+          <p class="desc">
             Our team is ready to act as a coach to solve any issues related to
             self-confidence development in Speaking the British accent or
             neutral accent. At the same time, we understand the peculiarities of
@@ -130,40 +129,35 @@
             Public speaking and Etiquette and we are able to coordinate
             technical solutions with your internal and external developments.
           </p>
-
-          <div class="about-us-button">
-            <a class="about-us-button-link" href="about-us.html">About Us</a>
-          </div>
+          <a class="about-us-link" href="about-us.html">About Us</a>
         </div>
-        <div class="section-2-img-div">
-          <div class="section-2-img">
-            <img
-              class="section-2-img-g"
-              src="images/conference room6.jpeg"
-              alt="An image is here"
-            />
-          </div>
+        <div class="img-div">
+          <img
+            class="img-g"
+            src="images/conference room6.jpeg"
+            alt="An image is here"
+          />
         </div>
       </div>
     </section>
 
     <section class="section-3">
-      <div class="section-3-div">
-        <h3 class="section-3-welc">Welcome to actual</h3>
-        <h1 class="section-3-h1">Services We Are <span>Offering</span></h1>
-        <p class="section-3-desc">
+      <div class="container">
+        <h3 class="actual">Welcome to actual</h3>
+        <h1 class="services">Services We Are <span>Offering</span></h1>
+        <p class="desc">
           Your development and self-confidence are above all else. Whatever the
           scale and nature of your accents, our experts have the skills and
           experience necessary to successfully solve your problems.
         </p>
       </div>
 
-      <div class="section-3-card">
-        <div class="section-3-card2">
-          <div class="section-3-card-div">
+      <div class="card">
+        <div class="card-2">
+          <div class="card-div">
             <i class="fa-solid fa-person-chalkboard"></i>
-            <h1 class="section-3-card-h1">Diction<br />Coaching</h1>
-            <p class="section-3-card-desc">
+            <h1 class="card-h1">Diction<br />Coaching</h1>
+            <p class="card-desc">
               This is managed by our professionals and experts. They involve in
               improving the clarity and accuracy of people's speech by
               addressing issues such as pronunciation, enunciation, articulation
@@ -171,16 +165,15 @@
               a person speaks by training the muscles of the mouth, lips, and
               tongue to produce sounds correctly....
             </p>
-
             <a class="read-more" href="services.html">Read more ></a>
           </div>
         </div>
 
-        <div class="section-3-card2">
-          <div class="section-3-card-div">
+        <div class="card-2">
+          <div class="card-div">
             <i class="fa-solid fa-person-chalkboard"></i>
-            <h1 class="section-3-card-h1">Elocusion<br />Coaching</h1>
-            <p class="section-3-card-desc">
+            <h1 class="card-h1">Elocusion<br />Coaching</h1>
+            <p class="card-desc">
               We focus on improving a person's ability to speak clearly and
               effectively. We work on elements such as pronunciation, tone,
               rhythm, cadence, articulation, and inflection. The ultimate goal
@@ -192,11 +185,11 @@
           </div>
         </div>
 
-        <div class="section-3-card2">
-          <div class="section-3-card-div">
+        <div class="card-2">
+          <div class="card-div">
             <i class="fa-solid fa-person-chalkboard"></i>
-            <h1 class="section-3-card-h1">Public<br />Speaking</h1>
-            <p class="section-3-card-desc">
+            <h1 class="card-h1">Public<br />Speaking</h1>
+            <p class="card-desc">
               Our team of experts also help in grooming individuals and groups
               to be able to deliver speeches or presentations to an audience. As
               good diction is essential for public speaking because it ensures
@@ -209,11 +202,11 @@
             <a class="read-more" href="services.html">Read more ></a>
           </div>
         </div>
-        <div class="section-3-card2">
-          <div class="section-3-card-div">
+        <div class="card-2">
+          <div class="card-div">
             <i class="fa-solid fa-person-chalkboard"></i>
-            <h1 class="section-3-card-h1">Etiquette</h1>
-            <p class="section-3-card-desc">
+            <h1 class="card-h1">Etiquette</h1>
+            <p class="card-desc">
               Our team of professionals also help in grooming individuals and
               groups on public, business, dinning and general etiquette. We
               build our clients into developing socially accepted behaviours,
@@ -233,12 +226,12 @@
         <p class="Testimonial-p">What Our <span>Client’s Say’s</span></p>
       </div>
 
-      <div class="Testimonial-container">
-        <div class="Testimonial-content">
-          <div class="Testimonial-4-div">
-            <div class="Testimonial-4-div-2">
+      <div class="container">
+        <div class="content">
+          <div class="div-container">
+            <div class="div-content">
               <img
-                class="Testimonial-4-img"
+                class="image"
                 src="images/queensuccess.jpg"
                 alt="A Picture"
               />
@@ -269,14 +262,10 @@
           <a class="view-testimonial" href="testimonial.html">Testimonial</a>
         </div>
 
-        <div class="Testimonial-content">
-          <div class="Testimonial-4-div">
-            <div class="Testimonial-4-div-2">
-              <img
-                class="Testimonial-4-img"
-                src="images/rita-uche-1.jpg"
-                alt="A Picture"
-              />
+        <div class="content">
+          <div class="div-container">
+            <div class="div-content">
+              <img class="image" src="images/rita-uche-1.jpg" alt="A Picture" />
             </div>
             <div class="nomenclaiture">
               <h3 class="nomenclaiture-h3">Rejoice Uche Aba</h3>
@@ -398,36 +387,36 @@
     </section>
 
     <footer class="footer">
-      <div class="footer-display">
+      <div class="display">
         <div class="footer-div">
           <img class="footer-logo" src="images/logo.jpg" alt="Company Logo" />
           <div class="icon">
             <ul class="icon-card">
-              <li class="icon-card-list">
+              <li class="card-list">
                 <a
                   href="https://www.facebook.com/ProfessionalElocutionist"
                   target="_blank"
                   ><i class="fa-brands fa-facebook footer-brands"></i
                 ></a>
               </li>
-              <li class="icon-card-list">
+              <li class="card-list">
                 <a href="twitter.com" target="_blank"
                   ><i class="fa-brands fa-twitter footer-brands"></i
                 ></a>
               </li>
-              <li class="icon-card-list">
+              <li class="card-list">
                 <a
                   href="https://www.instagram.com/kdspeechventures?r=nametag"
                   target="_blank"
                   ><i class="fa-brands fa-instagram brands footer-brands"></i
                 ></a>
               </li>
-              <li class="icon-card-list">
+              <li class="card-list">
                 <a href="https://wa.me/message/7LB4IM2WO4XZH1" target="_blank"
                   ><i class="fa-brands fa-whatsapp footer-brands"></i
                 ></a>
               </li>
-              <li class="icon-card-list">
+              <li class="card-list">
                 <a href="linkedln.com" target="_blank"
                   ><i class="fa-brands fa-linkedin footer-brands"></i
                 ></a>
@@ -444,52 +433,55 @@
             >
           </div>
         </div>
+        <div class="col-1-2-parent">
+          <div class="col-1">
+            <h3 class="col-1-h3">Menu</h3>
+            <ul class="col-ul">
+              <li class="col-li">
+                <a class="col-li-links" href="index.html">Home</a>
+              </li>
+              <li class="col-li">
+                <a class="col-li-links" href="about-us.html">About Us</a>
+              </li>
+              <li class="col-li">
+                <a class="col-li-links" href="services.html">Services</a>
+              </li>
+              <li class="col-li">
+                <a class="col-li-links" href="team.html">Team</a>
+              </li>
+              <li class="col-li">
+                <a class="col-li-links" href="testimonial.html">Testimonial</a>
+              </li>
+              <li class="col-li">
+                <a class="col-li-links" href="contact.html">Contact</a>
+              </li>
+              <li class="col-li">
+                <a class="col-li-links" href="faqs.html">FAQs</a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="col-1">
-          <h3 class="col-1-h3">Menu</h3>
-          <ul class="col-ul">
-            <li class="col-li">
-              <a class="col-li-links" href="index.html">Home</a>
-            </li>
-            <li class="col-li">
-              <a class="col-li-links" href="about-us.html">About Us</a>
-            </li>
-            <li class="col-li">
-              <a class="col-li-links" href="services.html">Services</a>
-            </li>
-            <li class="col-li">
-              <a class="col-li-links" href="team.html">Team</a>
-            </li>
-            <li class="col-li">
-              <a class="col-li-links" href="testimonial.html">Testimonial</a>
-            </li>
-            <li class="col-li">
-              <a class="col-li-links" href="contact.html">Contact</a>
-            </li>
-            <li class="col-li">
-              <a class="col-li-links" href="faqs.html">FAQs</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-2">
-          <h3 class="col-2-h3">Services</h3>
-          <ul class="col-2-ul">
-            <li class="col-2-li">
-              <a class="col-2-li-links" href="diction.html">Diction Coaching</a>
-            </li>
-            <li class="col-2-li">
-              <a class="col-2-li-links" href="elocution.html"
-                >Elocution Perfection</a
-              >
-            </li>
-            <li class="col-2-li">
-              <a class="col-2-li-links" href="public.html">Public Speaking</a>
-            </li>
-            <li class="col-2-li">
-              <a class="col-2-li-links" href="etiquette.html">Etiquette</a>
-            </li>
-          </ul>
+          <div class="col-2">
+            <h3 class="col-2-h3">Services</h3>
+            <ul class="col-2-ul">
+              <li class="col-2-li">
+                <a class="col-2-li-links" href="diction.html"
+                  >Diction Coaching</a
+                >
+              </li>
+              <li class="col-2-li">
+                <a class="col-2-li-links" href="elocution.html"
+                  >Elocution Perfection</a
+                >
+              </li>
+              <li class="col-2-li">
+                <a class="col-2-li-links" href="public.html">Public Speaking</a>
+              </li>
+              <li class="col-2-li">
+                <a class="col-2-li-links" href="etiquette.html">Etiquette</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="col-3">
@@ -504,11 +496,11 @@
             />
             <a href="" class="suscribe">Suscribe</a>
           </form>
-          <div class="col-3-consult">
+          <div class="consult">
             <div class="col-3-fas">
               <i class="fa-solid fa-phone-volume fa-volume"></i>
             </div>
-            <div class="col-3-call">
+            <div class="call">
               <p class="col-3-p">
                 Contact for a Free Consultation:<br /><span class="call-consult"
                   >+234 806-7079-491, +234 905-4364-061</span
@@ -517,12 +509,12 @@
             </div>
           </div>
 
-          <div class="col-3-location">
+          <div class="location">
             <div class="col-3-fas-dot">
               <i class="bx bx-current-location"></i>
             </div>
 
-            <p class="col-3-address">
+            <p class="address">
               23 Okpanam / Asaba Road,<br />Okpanam, Delta State
             </p>
           </div>
