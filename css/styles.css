@@ -8,7 +8,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: rgba(0, 100, 0, 0.1) !important;
 }
 
 .navbar {
@@ -62,7 +61,7 @@
   font-weight: bold;
   color: var(--primary-color);
   -webkit-text-decoration: underline black;
-  text-decoration: underline black;
+          text-decoration: underline black;
 }
 .navbar .container .navigation .secondary-nav {
   margin-top: 1em;
@@ -580,7 +579,7 @@
 .footer .display .col-1-2-parent .col-1 .col-ul .col-li .col-li-links {
   color: rgb(172, 169, 169);
   -webkit-text-decoration: double;
-  text-decoration: double;
+          text-decoration: double;
 }
 .footer .display .col-1-2-parent .col-1 .col-ul .col-li .col-li-links:hover {
   color: var(--primary-color);
@@ -607,13 +606,7 @@
   color: rgb(172, 169, 169);
   text-decoration: none;
 }
-.footer
-  .display
-  .col-1-2-parent
-  .col-2
-  .col-2-ul
-  .col-2-li
-  .col-2-li-links:hover {
+.footer .display .col-1-2-parent .col-2 .col-2-ul .col-2-li .col-2-li-links:hover {
   color: var(--primary-color);
 }
 .footer .display .col-3 {
@@ -775,7 +768,7 @@
   width: 25vw;
   height: 40vh;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   position: absolute;
   bottom: 0.3em;
   left: -13rem;
@@ -1101,7 +1094,7 @@
   width: 20vw;
   height: 32vh;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   position: absolute;
   bottom: 0;
   left: -15rem;
@@ -1190,7 +1183,7 @@
   width: 25vw;
   height: 40vh;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   position: absolute;
   left: -9rem;
   bottom: -5em;
@@ -1227,7 +1220,7 @@
   width: 25vw;
   height: 40vh;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   position: absolute;
   left: 19rem;
   bottom: -3em;
@@ -1305,9 +1298,7 @@
 .section-2-sersubs .section-2-sersubs-container {
   padding-bottom: 2em;
 }
-.section-2-sersubs
-  .section-2-sersubs-container
-  .section-2-sersubs-overflow-test {
+.section-2-sersubs .section-2-sersubs-container .section-2-sersubs-overflow-test {
   background: white;
   padding: 20px;
   width: 95%;
@@ -1318,18 +1309,11 @@
   font-size: 16px;
   font-family: verdana;
 }
-.section-2-sersubs
-  .section-2-sersubs-container
-  .section-2-sersubs-overflow-test
-  .section-2-sersubs-p {
+.section-2-sersubs .section-2-sersubs-container .section-2-sersubs-overflow-test .section-2-sersubs-p {
   line-height: 2em;
   padding: 0 0 1em 3em;
 }
-.section-2-sersubs
-  .section-2-sersubs-container
-  .section-2-sersubs-overflow-test
-  .section-2-sersubs-p
-  span {
+.section-2-sersubs .section-2-sersubs-container .section-2-sersubs-overflow-test .section-2-sersubs-p span {
   font-weight: bold;
   font-size: 1.1em;
   color: var(--primary-color);
@@ -1350,7 +1334,7 @@
 }
 
 .section-4-sersubs {
-  background-color: #f1ecec;
+  background-color: white;
   width: 95%;
   padding: 7em 0 7em 0;
 }
@@ -1374,7 +1358,8 @@
   gap: 2em;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1em 3em 2em 3em;
+  padding: 1.2em;
+  margin: auto;
 }
 .section-4-sersubs .sersubs-button-parent {
   display: flex;
@@ -1384,11 +1369,7 @@
 .section-4-sersubs .sersubs-button-parent .button-container .sersubs-button {
   list-style-type: none;
 }
-.section-4-sersubs
-  .sersubs-button-parent
-  .button-container
-  .sersubs-button
-  .sersubs-button-link {
+.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link {
   background-color: var(--primary-color);
   border-radius: 0.5em;
   color: white;
@@ -1397,11 +1378,7 @@
   font-weight: bold;
   padding: 1em 1.3em;
 }
-.section-4-sersubs
-  .sersubs-button-parent
-  .button-container
-  .sersubs-button
-  .sersubs-button-link:hover {
+.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link:hover {
   background-color: var(--secondary-color);
 }
 
@@ -1512,11 +1489,7 @@
 .section-3-eti .eti-button-parent .button-container .eti-button {
   list-style-type: none;
 }
-.section-3-eti
-  .eti-button-parent
-  .button-container
-  .eti-button
-  .eti-button-link {
+.section-3-eti .eti-button-parent .button-container .eti-button .eti-button-link {
   background-color: var(--primary-color);
   border-radius: 0.5em;
   color: white;
@@ -1525,11 +1498,7 @@
   font-weight: bold;
   padding: 1em 1.3em;
 }
-.section-3-eti
-  .eti-button-parent
-  .button-container
-  .eti-button
-  .eti-button-link:hover {
+.section-3-eti .eti-button-parent .button-container .eti-button .eti-button-link:hover {
   background-color: var(--secondary-color);
 }
 
@@ -1635,13 +1604,7 @@
   font-size: 2em;
   color: var(--primary-color);
 }
-.section-team-2
-  .team-2-card
-  .card
-  .block-div
-  .socia-icon
-  .social-media
-  .footer-brands:hover {
+.section-team-2 .team-2-card .card .block-div .socia-icon .social-media .footer-brands:hover {
   color: black;
 }
 .section-team-2 .team-2-card .card .details-div {
@@ -1739,57 +1702,28 @@
   padding: 1em 0.3em;
   width: 30%;
 }
-.section-team-3
-  .section-team-3-card
-  .section-team-3-card2
-  .section-team-3-card-div {
+.section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div {
   padding: 2.5em 0 0 2em;
   display: flex;
   gap: 1em;
 }
-.section-team-3
-  .section-team-3-card
-  .section-team-3-card2
-  .section-team-3-card-div
-  .fas-div
-  .fasfa {
+.section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div .fas-div .fasfa {
   font-size: 3em;
   color: var(--primary-color);
 }
-.section-team-3
-  .section-team-3-card
-  .section-team-3-card2
-  .section-team-3-card-div
-  .fas-div
-  .fa-map-pin {
+.section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div .fas-div .fa-map-pin {
   font-size: 3em;
   color: var(--primary-color);
 }
-.section-team-3
-  .section-team-3-card
-  .section-team-3-card2
-  .section-team-3-card-div
-  .section-team-3-info
-  .section-team-3-card-h1 {
+.section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div .section-team-3-info .section-team-3-card-h1 {
   font-size: 1.4em;
   margin-bottom: 1em;
 }
-.section-team-3
-  .section-team-3-card
-  .section-team-3-card2
-  .section-team-3-card-div
-  .section-team-3-info
-  .section-team-3-card-desc {
+.section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div .section-team-3-info .section-team-3-card-desc {
   line-height: 1.5em;
   margin-bottom: 4em;
 }
-.section-team-3
-  .section-team-3-card
-  .section-team-3-card2
-  .section-team-3-card-div
-  .section-team-3-info
-  .section-team-3-card-desc
-  .email-link {
+.section-team-3 .section-team-3-card .section-team-3-card2 .section-team-3-card-div .section-team-3-info .section-team-3-card-desc .email-link {
   color: var(--primary-color);
 }
 
@@ -1856,12 +1790,7 @@
   gap: 1em;
   padding-bottom: 3em;
 }
-.section-2-testimonial
-  .test-container
-  .test-content
-  .test-2-div
-  .test-2-div-2
-  .test-2-img {
+.section-2-testimonial .test-container .test-content .test-2-div .test-2-div-2 .test-2-img {
   width: 80px;
   height: 80px;
   border-radius: 0.4em;
@@ -1923,11 +1852,7 @@
 .section-3-testimonial .button-parent .button-container .test-button {
   list-style-type: none;
 }
-.section-3-testimonial
-  .button-parent
-  .button-container
-  .test-button
-  .test-button-link {
+.section-3-testimonial .button-parent .button-container .test-button .test-button-link {
   background-color: var(--primary-color);
   border-radius: 0.5em;
   color: white;
@@ -1936,11 +1861,7 @@
   font-weight: bold;
   padding: 1em 1.3em;
 }
-.section-3-testimonial
-  .button-parent
-  .button-container
-  .test-button
-  .test-button-link:hover {
+.section-3-testimonial .button-parent .button-container .test-button .test-button-link:hover {
   background-color: var(--secondary-color);
 }
 
@@ -2131,7 +2052,7 @@
     font-weight: bold;
     color: var(--primary-color);
     -webkit-text-decoration: underline black;
-    text-decoration: underline black;
+            text-decoration: underline black;
   }
   .navbar .container .navigation .secondary-nav {
     width: -moz-fit-content;
@@ -2567,13 +2488,7 @@
     color: var(--primary-color);
     padding: 0.3em 0.3em 0.2em 0.3em;
   }
-  .footer
-    .display
-    .footer-div
-    .icon
-    .icon-card
-    .card-list
-    .footer-brands:hover {
+  .footer .display .footer-div .icon .icon-card .card-list .footer-brands:hover {
     background-color: var(--primary-color);
     color: white;
   }
@@ -2611,7 +2526,7 @@
   .footer .display .col-1-2-parent .col-1 .col-ul .col-li .col-li-links {
     color: rgb(172, 169, 169);
     -webkit-text-decoration: double;
-    text-decoration: double;
+            text-decoration: double;
   }
   .footer .display .col-1-2-parent .col-1 .col-ul .col-li .col-li-links:hover {
     color: var(--primary-color);
@@ -2638,13 +2553,7 @@
     color: rgb(172, 169, 169);
     text-decoration: none;
   }
-  .footer
-    .display
-    .col-1-2-parent
-    .col-2
-    .col-2-ul
-    .col-2-li
-    .col-2-li-links:hover {
+  .footer .display .col-1-2-parent .col-2 .col-2-ul .col-2-li .col-2-li-links:hover {
     color: var(--primary-color);
   }
   .footer .display .col-3 {
@@ -3109,7 +3018,7 @@
     width: 45em;
     height: auto;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
     position: relative;
     left: 0.5rem;
   }
@@ -3236,4 +3145,4 @@
   .section-2-grt .button-parent .button .button-link:hover {
     background-color: var(--secondary-color);
   }
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
