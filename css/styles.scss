@@ -1279,7 +1279,6 @@
     }
   }
 }
-
 .section-2-sersubs {
   width: webkit-fill-available;
   margin: 5em 5em 3em 5em;
@@ -1324,8 +1323,8 @@
 }
 .section-3-sersubs {
   background-color: rgb(177, 177, 209);
-  width: webkit-fill-available;
-  margin: 0 2em 0 2em;
+  width: fit-content;
+  margin: 0 2em 0 1.5em;
   .dic-img {
     display: flex;
     img {

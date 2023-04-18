@@ -1321,8 +1321,9 @@
 
 .section-3-sersubs {
   background-color: rgb(177, 177, 209);
-  width: webkit-fill-available;
-  margin: 0 2em 0 2em;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 2em 0 1.5em;
 }
 .section-3-sersubs .dic-img {
   display: flex;
