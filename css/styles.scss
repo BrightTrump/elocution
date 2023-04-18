@@ -2601,8 +2601,9 @@
         display: block;
         width: 100%;
         .form {
+          display: flex;
           padding-bottom: 1.5em;
-          width: 100%;
+          width: 90%;
           .form-input {
             padding: 2em 10em;
             border: 0 solid black;
