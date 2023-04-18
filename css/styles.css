@@ -614,15 +614,19 @@
 }
 .footer .display .col-3 .form {
   padding-bottom: 1.5em;
+  width: 100%;
 }
 .footer .display .col-3 .form .form-input {
-  padding: 1em 3em;
+  width: 60%;
+  padding: 1em 0.5em 1em 0.5em;
   border: 0 solid black;
   border-radius: 0.3em;
   background-color: rgb(82, 79, 79);
   color: white;
 }
 .footer .display .col-3 .form .suscribe {
+  position: relative;
+  left: -1rem;
   background-color: var(--primary-color);
   border-radius: 0.5em;
   color: white;
@@ -2567,10 +2571,10 @@
   .footer .display .col-3 .form {
     display: flex;
     padding-bottom: 1.5em;
-    width: 90%;
+    width: 100%;
   }
   .footer .display .col-3 .form .form-input {
-    padding: 2em 10em;
+    padding: 1em 0.5em 1em 0.5em;
     border: 0 solid black;
     border-radius: 0.3em;
     background-color: rgb(82, 79, 79);
@@ -2578,6 +2582,8 @@
     width: 100%;
   }
   .footer .display .col-3 .form .suscribe {
+    position: relative;
+    left: -1rem;
     background-color: var(--primary-color);
     border-radius: 0.5em;
     color: white;
