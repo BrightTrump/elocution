@@ -1388,17 +1388,17 @@
 .section-1-eti {
   background-color: var(--primary-color);
   padding: 7em 0 8em 0;
-  .section-1-eti-p {
+  .eti-p {
     font-size: 3em;
     text-align: center;
     color: white;
     padding-bottom: 0.5em;
   }
-  .sec-eti-li {
+  .eti-li {
     text-align: center;
     list-style-type: none;
     color: white;
-    .sec-eti-a {
+    .eti-a {
       color: white;
       text-decoration: none;
       &:hover {
@@ -1417,7 +1417,7 @@
     text-align: center;
     margin: 0 0 3em 0;
   }
-  .section-2-eti-desc {
+  .desc {
     font-size: 1.2em;
     line-height: 1.5em;
     text-align: center;
@@ -1425,12 +1425,12 @@
     margin: auto;
     padding-bottom: 2.5em;
   }
-  .eti-parent {
+  .parent {
     display: flex;
     gap: 3em;
     padding: 1em 2em 2em 6em;
     width: 100%;
-    .eti-sub-parent {
+    .sub-parent {
       background-color: white;
       border-radius: 2em;
       width: 30%;
@@ -1452,14 +1452,14 @@
 .section-3-eti {
   background-color: white;
   padding: 7em 0 8em 5em;
-  .eti-etiq {
+  .etiq {
     font-size: 1em;
     color: rgb(148, 148, 155);
     text-transform: uppercase;
     text-align: center;
     margin: 0 0 3em 0;
   }
-  .section-3-eti-desc {
+  .desc {
     font-size: 1.2em;
     line-height: 1.5em;
     text-align: center;
@@ -1467,11 +1467,11 @@
     margin: auto;
     padding-bottom: 2.5em;
   }
-  .eti-container {
+  .container {
     display: flex;
     gap: 3em;
     padding: 1em 5em 2em 0;
-    .eti-content {
+    .content {
       width: 100%;
       height: 100%;
       .eti-image {
@@ -1481,25 +1481,20 @@
       }
     }
   }
-  .eti-button-parent {
+  .btn {
     display: flex;
     gap: 2em;
     margin: 5em 0 0 31em;
-    .button-container {
-      .eti-button {
-        list-style-type: none;
-        .eti-button-link {
-          background-color: var(--primary-color);
-          border-radius: 0.5em;
-          color: white;
-          text-decoration: none;
-          font-size: 1.2em;
-          font-weight: bold;
-          padding: 1em 1.3em;
-          &:hover {
-            background-color: var(--secondary-color);
-          }
-        }
+    .btn-link {
+      background-color: var(--primary-color);
+      border-radius: 0.5em;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 1em 1.3em;
+      &:hover {
+        background-color: var(--secondary-color);
       }
     }
   }
@@ -1507,8 +1502,10 @@
 .section-4-eti {
   background-color: rgb(177, 177, 209);
   margin: 0 2em 5em 2em;
-  .dic-img {
+  .img-div {
     display: flex;
+    width: 100%;
+    height: 100%;
     img {
       width: 32vw;
       height: 60vh;
@@ -1519,17 +1516,17 @@
 .section-1-team {
   background-color: var(--primary-color);
   padding: 7em 0 8em 0;
-  .section-1-team-p {
+  .team-p {
     font-size: 3em;
     text-align: center;
     color: white;
     padding-bottom: 0.5em;
   }
-  .sec-team-li {
+  .team-li {
     text-align: center;
     list-style-type: none;
     color: white;
-    .sec-team-a {
+    .team-a {
       color: white;
       text-decoration: none;
       &:hover {
@@ -1560,17 +1557,17 @@
         color: var(--primary-color);
       }
     }
-    .team-2-desc {
+    .desc {
       line-height: 2em;
       font-size: 1.2em;
       padding-bottom: 5em;
     }
   }
-  .team-2-card {
+  .card {
     display: flex;
     gap: 10em;
     margin: 0.2em 5em 10em 7em;
-    .card {
+    .card-div {
       background-color: rgb(254, 255, 253);
       .block-div {
         padding: 1em 1em 2em 1em;
@@ -1578,6 +1575,8 @@
         justify-content: center;
         .img-icon {
           padding-bottom: 2em;
+          width: 100%;
+          height: 100%;
           .team-2-img {
             width: 20vw;
             height: 40vh;
@@ -1665,26 +1664,26 @@
 .section-team-3 {
   padding-bottom: 3em;
   background-color: rgb(247, 243, 243);
-  .section-team-3-div {
+  .team-div {
     text-align: center;
     max-width: 950px;
     justify-items: center;
     margin: auto;
-    .section-team-3-welc {
+    .welc {
       font-size: 1em;
       color: rgb(176, 176, 199);
       text-transform: uppercase;
       padding: 5em 0 3em 0;
       text-align: center;
     }
-    .section-team-3-h1 {
+    .team-h1 {
       font-size: 2.5em;
       padding: 0 0 1em 0;
       span {
         color: var(--primary-color);
       }
     }
-    .section-team-3-desc {
+    .desc {
       font-size: 1.2em;
       line-height: 1.5em;
       text-align: center;
@@ -1693,17 +1692,17 @@
       padding-bottom: 3em;
     }
   }
-  .section-team-3-card {
+  .card {
     margin: 0.2em 5em 3em 5em;
     display: flex;
     justify-content: space-between;
     gap: 2em;
-    .section-team-3-card2 {
+    .card-2 {
       border-radius: 0.5em;
       background-color: white;
       padding: 1em 0.3em;
       width: 30%;
-      .section-team-3-card-div {
+      .card-div {
         padding: 2.5em 0 0 2em;
         display: flex;
         gap: 1em;
@@ -1717,12 +1716,12 @@
             color: var(--primary-color);
           }
         }
-        .section-team-3-info {
-          .section-team-3-card-h1 {
+        .info {
+          .card-h1 {
             font-size: 1.4em;
             margin-bottom: 1em;
           }
-          .section-team-3-card-desc {
+          .card-desc {
             line-height: 1.5em;
             margin-bottom: 4em;
             .email-link {
@@ -1780,20 +1779,20 @@
       }
     }
   }
-  .test-container {
+  .container {
     margin: 0.2em 5em 5em 5em;
     display: flex;
     justify-content: space-between;
     gap: 3em;
-    .test-content {
+    .content {
       background-color: rgb(248, 248, 253);
       border-radius: 1em;
       padding: 2.5em 0 2em 2.5em;
-      .test-2-div {
+      .content-div {
         display: flex;
         gap: 1em;
         padding-bottom: 3em;
-        .test-2-div-2 {
+        .test-div-2 {
           .test-2-img {
             width: 80px;
             height: 80px;
@@ -1839,7 +1838,7 @@
     text-align: center;
     margin: 0 0 3em 0;
   }
-  .test-desc {
+  .desc {
     font-size: 1.2em;
     line-height: 1.5em;
     text-align: center;
@@ -1847,29 +1846,28 @@
     margin: auto;
     padding-bottom: 2.5em;
   }
-  .test-container {
+  .container {
     display: flex;
     gap: 2em;
     padding: 1em 3em 2em 3em;
+    .test-vid {
+      width: 400px;
+      height: 300px;
+    }
   }
-  .button-parent {
+  .btn {
     display: flex;
     margin: 7em 0 0 40em;
-    .button-container {
-      .test-button {
-        list-style-type: none;
-        .test-button-link {
-          background-color: var(--primary-color);
-          border-radius: 0.5em;
-          color: white;
-          text-decoration: none;
-          font-size: 1.2em;
-          font-weight: bold;
-          padding: 1em 1.3em;
-          &:hover {
-            background-color: var(--secondary-color);
-          }
-        }
+    .btn-link {
+      background-color: var(--primary-color);
+      border-radius: 0.5em;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 1em 1.3em;
+      &:hover {
+        background-color: var(--secondary-color);
       }
     }
   }
@@ -1981,20 +1979,22 @@
         border-radius: 15em;
       }
     }
-    .form-button {
-      text-decoration: none;
-      background-color: var(--primary-color);
-      border-radius: 1em;
-      color: white;
-      padding: 1.2em 1.3em;
-      &:hover {
-        color: var(--primary-color);
-        background-color: rgb(214, 212, 212);
+    .form-btn {
+      list-style-type: none;
+      .btn-link {
+        text-decoration: none;
+        background-color: var(--primary-color);
+        border-radius: 1em;
+        color: white;
+        padding: 1.2em 1.3em;
+        &:hover {
+          color: var(--primary-color);
+          background-color: rgb(214, 212, 212);
+        }
       }
     }
   }
 }
-
 //faqs.html page
 .section-1-faqs {
   background-color: var(--primary-color);
@@ -3329,7 +3329,7 @@
       gap: 2em;
       width: 100%;
       height: 100%;
-      padding: 1.2em 2em 4em 2em;
+      padding: 1.2em 2em 4em 1em;
       margin: auto;
       .vid {
         width: 700px;
@@ -3355,4 +3355,662 @@
     }
   }
   //etiquette.html
+  .section-1-eti {
+    background-color: var(--primary-color);
+    padding: 7em 0 8em 0;
+    margin-top: 2em;
+    .eti-p {
+      font-size: 3em;
+      text-align: center;
+      color: white;
+      padding-bottom: 0.5em;
+    }
+    .eti-li {
+      text-align: center;
+      list-style-type: none;
+      color: white;
+      .eti-a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .section-2-eti {
+    background-color: #faf7f7;
+    padding: 7em 0 8em 0;
+    .eti {
+      font-size: 1em;
+      color: rgb(122, 119, 119);
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 3em 0;
+    }
+    .desc {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      padding-bottom: 2.5em;
+    }
+    .parent {
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      padding: 1em 2em 2em 6em;
+      width: 100%;
+      height: 50%;
+      .sub-parent {
+        background-color: white;
+        border-radius: 2em;
+        width: 90%;
+        .eti-block {
+          display: block;
+          padding: 3em;
+          .eti-etiquette {
+            font-size: 1.5em;
+            padding-bottom: 1.2em;
+          }
+          .eti-fas {
+            font-size: 1.2em;
+            line-height: 2em;
+          }
+        }
+      }
+    }
+  }
+  .section-3-eti {
+    background-color: white;
+    padding: 7em 0 8em 5em;
+    .etiq {
+      font-size: 1em;
+      color: rgb(148, 148, 155);
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 3em 0;
+    }
+    .desc {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      padding-bottom: 2.5em;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      padding: 1em 5em 2em 0;
+      .content {
+        width: 100%;
+        height: 100%;
+        .eti-image {
+          width: 75vw;
+          height: 35vh;
+          padding-bottom: 2em;
+        }
+      }
+    }
+    .btn {
+      display: flex;
+      gap: 2em;
+      margin: 5em 0 0 0.3em;
+      .btn-link {
+        background-color: var(--primary-color);
+        border-radius: 0.5em;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 1em 1.3em;
+        &:hover {
+          background-color: var(--secondary-color);
+        }
+      }
+    }
+  }
+  .section-4-eti {
+    background-color: rgb(177, 177, 209);
+    margin: 0 1em 5em 1em;
+    .img-div {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 32vw;
+        height: 25vh;
+      }
+    }
+  }
+  //team.html
+  .section-1-team {
+    background-color: var(--primary-color);
+    padding: 7em 0 8em 0;
+    margin-top: 2em;
+    .team-p {
+      font-size: 3em;
+      text-align: center;
+      color: white;
+      padding-bottom: 0.5em;
+    }
+    .team-li {
+      text-align: center;
+      list-style-type: none;
+      color: white;
+      .team-a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .section-team-2 {
+    background-color: white;
+    padding-bottom: 2em;
+    .team-2-div {
+      text-align: center;
+      max-width: 950px;
+      justify-items: center;
+      margin: auto;
+      .members {
+        font-size: 1em;
+        color: rgb(176, 176, 199);
+        text-transform: uppercase;
+        padding: 5em 0 3em 0;
+        text-align: center;
+      }
+      .quality {
+        padding-bottom: 1.2em;
+        font-size: 3em;
+        span {
+          color: var(--primary-color);
+        }
+      }
+      .desc {
+        line-height: 2em;
+        font-size: 1.2em;
+        padding: 0 0 5em 5em;
+        max-width: 700px;
+      }
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      margin: 0.2em 2em 10em 2em;
+      border: 1px solid black;
+      border-radius: 0.5em;
+      .card-div {
+        background-color: rgb(254, 255, 253);
+        .block-div {
+          padding: 1em 1em 2em 1em;
+          text-align: center;
+          justify-content: center;
+          .img-icon {
+            padding-bottom: 2em;
+            width: 100%;
+            height: 100%;
+            .team-2-img {
+              width: 60vw;
+              height: 50vh;
+              border-radius: 50%;
+            }
+          }
+          .name {
+            text-align: center;
+            padding-bottom: 0.5em;
+          }
+          .name-desc {
+            text-align: center;
+            padding-bottom: 1em;
+          }
+          .socia-icon {
+            display: flex;
+            gap: 2em;
+            padding: 0 0 3em 2em;
+            justify-content: center;
+            .social-media {
+              font-size: 2em;
+              color: var(--primary-color);
+              .footer-brands {
+                &:hover {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+        .details-div {
+          padding-bottom: 0;
+          margin: 0;
+          .details-p {
+            font-size: 1em;
+            padding: 0 1em 1.5em 1em;
+            .link {
+              color: black;
+              text-decoration: none;
+              &:hover {
+                color: var(--primary-color);
+              }
+            }
+          }
+        }
+      }
+      .desc-card {
+        .about-me {
+          font-size: 2em;
+          padding: 1em 1em 1em 0.4em;
+        }
+        .abt-desc {
+          font-size: 1.2em;
+          line-height: 2em;
+          padding: 0 1em 3em 0.5em;
+        }
+        .work-time {
+          font-size: 2em;
+          padding: 0 1em 1em 0.5em;
+        }
+        .durablock {
+          display: flex;
+          gap: 3em;
+          padding: 0 1em 1em 0.5em;
+          .duration {
+            font-size: 1.3em;
+            .schedule {
+              font-weight: bold;
+              padding-bottom: 1em;
+            }
+            .hour {
+              padding-bottom: 1em;
+            }
+          }
+        }
+        .experience {
+          font-size: 2em;
+          padding: 2em 1em 1em 0.5em;
+        }
+        .exp-desc {
+          font-size: 1.2em;
+          line-height: 2em;
+          padding: 0 1em 3em 0.5em;
+        }
+      }
+    }
+  }
+  .section-team-3 {
+    padding-bottom: 3em;
+    background-color: rgb(247, 243, 243);
+    .team-div {
+      text-align: center;
+      max-width: 950px;
+      justify-items: center;
+      margin: auto;
+      .welc {
+        font-size: 1em;
+        color: rgb(176, 176, 199);
+        text-transform: uppercase;
+        padding: 5em 0 3em 0;
+        text-align: center;
+      }
+      .team-h1 {
+        font-size: 2.5em;
+        padding: 0 0 1em 0;
+        span {
+          color: var(--primary-color);
+        }
+      }
+      .desc {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        padding-bottom: 3em;
+      }
+    }
+    .card {
+      margin: 0.2em 5em 3em 5em;
+      display: flex;
+      justify-content: space-between;
+      gap: 2em;
+      .card-2 {
+        border-radius: 0.5em;
+        background-color: white;
+        padding: 1em 0.3em;
+        width: 30%;
+        .card-div {
+          padding: 2.5em 0 0 2em;
+          display: flex;
+          gap: 1em;
+          .fas-div {
+            .fasfa {
+              font-size: 3em;
+              color: var(--primary-color);
+            }
+            .fa-map-pin {
+              font-size: 3em;
+              color: var(--primary-color);
+            }
+          }
+          .info {
+            .card-h1 {
+              font-size: 1.4em;
+              margin-bottom: 1em;
+            }
+            .card-desc {
+              line-height: 1.5em;
+              margin-bottom: 4em;
+              .email-link {
+                color: var(--primary-color);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //testimonia.html
+  .section-1-testimonial {
+    background-color: var(--primary-color);
+    padding: 7em 0 8em 0;
+    margin-top: 2em;
+    .test-p {
+      font-size: 3em;
+      text-align: center;
+      color: white;
+      padding-bottom: 0.5em;
+    }
+    .test-li {
+      text-align: center;
+      list-style-type: none;
+      color: white;
+      .test-a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .section-2-testimonial {
+    padding-bottom: 3em;
+    .test-div {
+      text-align: center;
+      max-width: 950px;
+      justify-items: center;
+      margin: auto;
+      .testimonial {
+        font-size: 1em;
+        color: rgb(176, 176, 199);
+        text-transform: uppercase;
+        padding: 5em 0 3em 0;
+        text-align: center;
+        padding: 7em 0 3em 0;
+      }
+      .test-p {
+        font-size: 3em;
+        padding-bottom: 1.2em;
+        span {
+          color: var(--primary-color);
+        }
+      }
+    }
+    .container {
+      margin: 0.2em 2em 5em 2em;
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      .content {
+        background-color: rgb(248, 248, 253);
+        border-radius: 1em;
+        padding: 2.5em 0 2em 2.5em;
+        margin: 0;
+        .content-div {
+          display: flex;
+          gap: 1.5em;
+          padding-bottom: 3em;
+          .test-div-2 {
+            .test-2-img {
+              width: 80px;
+              height: 80px;
+              border-radius: 0.4em;
+              box-shadow: 0.2px #333;
+            }
+          }
+        }
+        .identity-h3 {
+          font-size: 1.2em;
+        }
+        .identity-p1 {
+          font-size: 0.9em;
+          font-weight: bold;
+          color: var(--primary-color);
+          padding-top: 1em;
+        }
+        .fas-icon {
+          display: flex;
+          margin: auto;
+          align-items: self-end;
+          font-size: 2em;
+          color: var(--primary-color);
+        }
+      }
+      .identity-p2 {
+        text-align: left;
+        margin: 0;
+        line-height: 2em;
+        max-width: 992px;
+        padding: 0 1em 0 0;
+        font-size: 1.2em;
+      }
+    }
+  }
+  .section-3-testimonial {
+    background-color: #f1ecec;
+    padding: 7em 0 7em 0;
+    .testimonial {
+      font-size: 1em;
+      color: rgb(113, 113, 119);
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 3em 0;
+    }
+    .desc {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      padding-bottom: 2.5em;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      padding: 1em 3em 2em 3em;
+      .test-vid {
+        width: 600px;
+        height: 400px;
+      }
+    }
+    .btn {
+      display: flex;
+      margin: 5em 0 0 3.2em;
+      .btn-link {
+        background-color: var(--primary-color);
+        border-radius: 0.5em;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 1em 1.3em;
+        &:hover {
+          background-color: var(--secondary-color);
+        }
+      }
+    }
+  }
+  //contact.html page
+  .section-1-contact {
+    background-color: var(--primary-color);
+    padding: 7em 0 8em 0;
+    margin-top: 2em;
+    .cont-p {
+      font-size: 3em;
+      text-align: center;
+      color: white;
+      padding-bottom: 0.5em;
+    }
+    .cont-li {
+      text-align: center;
+      list-style-type: none;
+      color: white;
+      .cont-a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .section-2-contact {
+    background-color: rgb(245, 244, 244);
+    padding: 0 0 10em 1em;
+    margin: 0;
+    .cont-div {
+      margin: auto;
+      text-align: center;
+      .cont {
+        font-size: 1em;
+        color: rgb(176, 176, 199);
+        text-transform: uppercase;
+        padding: 7em 0 5em 0;
+      }
+      .cont-h1 {
+        font-size: 2.5em;
+        padding: 0 0 1em 0;
+        span {
+          color: var(--primary-color);
+        }
+      }
+      .cont-desc {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0 0 7em 0;
+      }
+    }
+    .section-2-div {
+      display: flex;
+      gap: 1em;
+      margin: 0;
+      padding-bottom: 7em;
+      .cont-div-2 {
+        text-align: left;
+        padding: 0 0 0 1em;
+        margin: 0;
+        .cont-address {
+          margin-bottom: 0.5em;
+          text-align: left;
+        }
+        .cont-desc-2 {
+          list-style-type: none;
+          line-height: 1.5em;
+          text-align: left;
+          .reach-us {
+            text-decoration: none;
+            color: var(--primary-color);
+            &:hover {
+              color: var(--secondary-color);
+            }
+          }
+        }
+      }
+    }
+    form {
+      margin: auto;
+      width: fit-content;
+      font-size: 1.2em;
+      .form-block {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        padding: 0 0 5em 1em;
+        .form-name {
+          .text {
+            background-color: white;
+            border: 0px solid white;
+            border-radius: 0.5em;
+            padding: 2em 30em 2em 1em;
+          }
+        }
+      }
+      .msg-label {
+        padding: 0 0 1em 1em;
+        .text-area {
+          width: 80%;
+        }
+      }
+      .check {
+        display: flex;
+        gap: 0.7em;
+        padding: 0 0 4em 1em;
+        .checkbox {
+          width: 1.5em;
+          height: 1.5em;
+          border-radius: 15em;
+        }
+      }
+      .form-btn {
+        padding-left: 1.3em;
+        .btn-link {
+          text-decoration: none;
+          background-color: var(--primary-color);
+          border-radius: 1em;
+          color: white;
+          padding: 1.2em 1.3em;
+          &:hover {
+            color: var(--primary-color);
+            background-color: rgb(214, 212, 212);
+          }
+        }
+      }
+    }
+  }
+  //faqs.html page
+  .section-1-faqs {
+    background-color: var(--primary-color);
+    padding: 7em 0 8em 0;
+    margin-top: 2em;
+    .faqs-p {
+      font-size: 3em;
+      text-align: center;
+      color: white;
+      padding-bottom: 0.5em;
+    }
+    .faqs-li {
+      text-align: center;
+      list-style-type: none;
+      color: white;
+      .faqs-a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  //mobile design
 }
