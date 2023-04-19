@@ -1257,22 +1257,22 @@
   padding: 7em 0 8em 0;
   width: 100%;
 }
-.section-1-sersubs .section-1-sersubs-p {
+.section-1-sersubs .sersubs-p {
   font-size: 3em;
   text-align: center;
   color: white;
   padding-bottom: 0.5em;
 }
-.section-1-sersubs .sec-sersubs-li {
+.section-1-sersubs .sersubs-li {
   text-align: center;
   list-style-type: none;
   color: white;
 }
-.section-1-sersubs .sec-sersubs-li .sec-sersubs-a {
+.section-1-sersubs .sersubs-li .sersubs-a {
   color: white;
   text-decoration: none;
 }
-.section-1-sersubs .sec-sersubs-li .sec-sersubs-a:hover {
+.section-1-sersubs .sersubs-li .sersubs-a:hover {
   color: black;
 }
 
@@ -1280,14 +1280,14 @@
   width: webkit-fill-available;
   margin: 5em 5em 3em 5em;
 }
-.section-2-sersubs .sersubs-coach {
+.section-2-sersubs .coach {
   font-size: 1em;
   color: rgb(176, 176, 199);
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 3em 0;
 }
-.section-2-sersubs .section-2-sersubs-desc {
+.section-2-sersubs .desc {
   font-size: 1.2em;
   line-height: 1.5em;
   text-align: center;
@@ -1295,10 +1295,10 @@
   margin: auto;
   padding-bottom: 2.5em;
 }
-.section-2-sersubs .section-2-sersubs-container {
+.section-2-sersubs .container {
   padding-bottom: 2em;
 }
-.section-2-sersubs .section-2-sersubs-container .section-2-sersubs-overflow-test {
+.section-2-sersubs .container .content {
   background: white;
   padding: 20px;
   width: 95%;
@@ -1309,11 +1309,11 @@
   font-size: 16px;
   font-family: verdana;
 }
-.section-2-sersubs .section-2-sersubs-container .section-2-sersubs-overflow-test .section-2-sersubs-p {
+.section-2-sersubs .container .content .overflow-text {
   line-height: 2em;
   padding: 0 0 1em 3em;
 }
-.section-2-sersubs .section-2-sersubs-container .section-2-sersubs-overflow-test .section-2-sersubs-p span {
+.section-2-sersubs .container .content .overflow-text span {
   font-weight: bold;
   font-size: 1.1em;
   color: var(--primary-color);
@@ -1325,10 +1325,12 @@
   width: fit-content;
   margin: 0 2em 0 1.5em;
 }
-.section-3-sersubs .dic-img {
+.section-3-sersubs .img-icon {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
-.section-3-sersubs .dic-img img {
+.section-3-sersubs .img-icon img {
   width: 32vw;
   height: 60vh;
 }
@@ -1338,14 +1340,14 @@
   width: 95%;
   padding: 7em 0 7em 0;
 }
-.section-4-sersubs .sersubs-testi {
+.section-4-sersubs .testi {
   font-size: 1em;
   color: rgb(113, 113, 119);
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 3em 0;
 }
-.section-4-sersubs .section-4-sersubs-desc {
+.section-4-sersubs .desc {
   font-size: 1.2em;
   line-height: 1.5em;
   text-align: center;
@@ -1353,7 +1355,7 @@
   margin: auto;
   padding-bottom: 2.5em;
 }
-.section-4-sersubs .sersubs-container {
+.section-4-sersubs .container {
   display: flex;
   gap: 2em;
   width: -moz-fit-content;
@@ -1361,15 +1363,16 @@
   padding: 1.2em;
   margin: auto;
 }
-.section-4-sersubs .sersubs-button-parent {
+.section-4-sersubs .container .vid {
+  width: 400px;
+  height: 340px;
+}
+.section-4-sersubs .btn {
   display: flex;
   gap: 2em;
   padding: 7em 0 2em 35em;
 }
-.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button {
-  list-style-type: none;
-}
-.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link {
+.section-4-sersubs .btn .btn-link {
   background-color: var(--primary-color);
   border-radius: 0.5em;
   color: white;
@@ -1378,7 +1381,7 @@
   font-weight: bold;
   padding: 1em 1.3em;
 }
-.section-4-sersubs .sersubs-button-parent .button-container .sersubs-button .sersubs-button-link:hover {
+.section-4-sersubs .btn .btn-link:hover {
   background-color: var(--secondary-color);
 }
 
@@ -3143,6 +3146,137 @@
     padding: 1em 1.3em;
   }
   .section-2-grt .button-parent .button .button-link:hover {
+    background-color: var(--secondary-color);
+  }
+  .section-1-sersubs {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 7em 0 8em 0;
+    margin-top: 2em;
+  }
+  .section-1-sersubs .sersubs-p {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding-bottom: 0.5em;
+  }
+  .section-1-sersubs .sersubs-li {
+    text-align: center;
+    list-style-type: none;
+    color: white;
+  }
+  .section-1-sersubs .sersubs-li .sersubs-a {
+    color: white;
+    text-decoration: none;
+  }
+  .section-1-sersubs .sersubs-li .sersubs-a:hover {
+    color: black;
+  }
+  .section-2-sersubs {
+    width: webkit-fill-available;
+    margin: 5em 5em 3em 5em;
+  }
+  .section-2-sersubs .coach {
+    font-size: 1em;
+    color: rgb(176, 176, 199);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 3em 0;
+  }
+  .section-2-sersubs .desc {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 2.5em;
+  }
+  .section-2-sersubs .container {
+    padding-bottom: 2em;
+  }
+  .section-2-sersubs .container .content {
+    background: white;
+    padding: 20px;
+    width: 95%;
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    margin: 0;
+    font-size: 16px;
+    font-family: verdana;
+  }
+  .section-2-sersubs .container .content .overflow-text {
+    line-height: 2em;
+    padding: 0 0 1em 3em;
+  }
+  .section-2-sersubs .container .content .overflow-text span {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--primary-color);
+  }
+  .section-3-sersubs {
+    background-color: rgb(177, 177, 209);
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 1.5em 0 1em;
+  }
+  .section-3-sersubs .img-icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .section-3-sersubs .img-icon img {
+    width: 32vw;
+    height: 30vh;
+  }
+  .section-4-sersubs {
+    background-color: white;
+    width: 95%;
+    padding: 9em 0 7em 2em;
+  }
+  .section-4-sersubs .testi {
+    font-size: 1em;
+    color: rgb(113, 113, 119);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 3em 0;
+  }
+  .section-4-sersubs .desc {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 2.5em;
+  }
+  .section-4-sersubs .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+    height: 100%;
+    padding: 1.2em 2em 4em 2em;
+    margin: auto;
+  }
+  .section-4-sersubs .container .vid {
+    width: 700px;
+    height: 400px;
+  }
+  .section-4-sersubs .btn {
+    display: flex;
+    gap: 2em;
+    padding: 7em 0 2em 2em;
+  }
+  .section-4-sersubs .btn .btn-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1em 1.3em;
+  }
+  .section-4-sersubs .btn .btn-link:hover {
     background-color: var(--secondary-color);
   }
 }/*# sourceMappingURL=styles.css.map */
