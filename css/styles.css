@@ -4546,7 +4546,7 @@
     background-color: rgb(82, 79, 79);
     color: white;
     width: 100%;
-    height: 8vh;
+    height: 6vh;
   }
   .footer .display .col-3 .form .suscribe {
     position: relative;
@@ -4556,7 +4556,7 @@
     color: white;
     font-size: 1.2em;
     text-decoration: none;
-    padding: 0.8em 1em;
+    padding: 0.5em 1em 0.4em 1em;
   }
   .footer .display .col-3 .form .suscribe:hover {
     background-color: white;
@@ -4603,7 +4603,7 @@
   .footer .copyright {
     text-align: left;
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.5em;
     color: white;
     padding: 0 0 0.5em 1em;
   }
@@ -4737,7 +4737,7 @@
     height: 40vh;
   }
   .section-abt-3 .card .card-div .abt-img {
-    width: 70vw;
+    width: 75vw;
     height: 40vh;
     border-radius: 50%;
   }

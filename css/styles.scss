@@ -4654,7 +4654,7 @@
             background-color: rgb(82, 79, 79);
             color: white;
             width: 100%;
-            height: 8vh;
+            height: 6vh;
           }
           .suscribe {
             position: relative;
@@ -4664,7 +4664,7 @@
             color: white;
             font-size: 1.2em;
             text-decoration: none;
-            padding: 0.8em 1em;
+            padding: 0.5em 1em 0.4em 1em;
             &:hover {
               background-color: white;
               color: var(--primary-color);
@@ -4718,7 +4718,7 @@
     .copyright {
       text-align: left;
       font-size: 1em;
-      line-height: 1em;
+      line-height: 1.5em;
       color: white;
       padding: 0 0 0.5em 1em;
       .copy {
@@ -4864,7 +4864,7 @@
         width: 100%;
         height: 40vh;
         .abt-img {
-          width: 70vw;
+          width: 75vw;
           height: 40vh;
           border-radius: 50%;
         }
