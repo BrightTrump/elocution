@@ -4054,7 +4054,7 @@
     background-attachment: scroll;
     background-size: cover;
     width: auto;
-    height: 60vh;
+    height: 75vh;
     margin-top: 0.1em;
   }
   .section-1 .card {
@@ -4065,7 +4065,7 @@
     font-size: 2em;
     text-align: left;
     color: white;
-    padding: 2em 2em 0.5em 0.3em;
+    padding: 4em 2em 0.5em 0.3em;
   }
   .section-1 .card .provide span {
     color: var(--primary-color);
@@ -4139,6 +4139,7 @@
   .section-2 .container .content .desc {
     font-size: 1.2em;
     line-height: 2em;
+    text-align: justify;
     margin-bottom: 3em;
   }
   .section-2 .container .content .about-us-link {
@@ -4613,7 +4614,7 @@
   .section-1-abt-us {
     background-color: var(--primary-color);
     margin-top: 2em;
-    padding: 2em 0 2em 0;
+    padding: 4em 0 4em 0;
   }
   .section-1-abt-us .abt-us-p {
     font-size: 3em;
@@ -4692,7 +4693,7 @@
   }
   .section-abt-3 {
     background-color: rgb(245, 244, 244);
-    padding-bottom: 4em;
+    padding-bottom: 1em;
   }
   .section-abt-3 .abt-3-div {
     text-align: center;
@@ -4723,11 +4724,11 @@
     padding-bottom: 0.3em;
   }
   .section-abt-3 .card {
-    margin: 0.2em 0 12em 2em;
+    margin: 0.2em 0 12em 1em;
     display: flex;
     flex-direction: column;
     gap: 2em;
-    width: 50%;
+    width: 90%;
   }
   .section-abt-3 .card .card-div {
     margin: 0 0 10em 0;
@@ -4738,7 +4739,7 @@
   }
   .section-abt-3 .card .card-div .abt-img {
     width: 75vw;
-    height: 40vh;
+    height: 45vh;
     border-radius: 50%;
   }
   .section-abt-3 .card .card-div .card-h1 {
@@ -4754,20 +4755,19 @@
     font-size: 1.2em;
   }
   .section-abt-5 {
-    display: none;
     background-color: #e7e0e0;
     background-size: contain;
-    padding: 10em 5em 9em 2em;
+    padding: 8em 1em 7em 1em;
   }
   .section-abt-5 .container {
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    gap: 3em;
   }
   .section-abt-5 .container .content .p-get {
+    font-size: 3em;
     line-height: 1.2em;
     font-weight: bold;
-    font-size: 4em;
     margin-bottom: 1em;
   }
   .section-abt-5 .container .content .p-get span {
@@ -4777,19 +4777,19 @@
     font-size: 1.2em;
     line-height: 2em;
     margin-bottom: 2em;
+    text-align: left;
   }
   .section-abt-5 .container .content .button {
     margin-top: 4em;
   }
   .section-abt-5 .container .content .button .button-link {
+    background-color: var(--primary-color);
     border-radius: 0.5em;
-    font-weight: bold;
     font-size: 1.2em;
     text-align: center;
-    color: white;
-    background-color: var(--primary-color);
-    padding: 1em 1.3em;
     text-decoration: none;
+    color: white;
+    padding: 1em 1.3em;
   }
   .section-abt-5 .container .content .button .button-link:hover {
     background-color: white;
@@ -4800,26 +4800,22 @@
     height: 100%;
   }
   .section-abt-5 .container .img-block img {
-    width: 85vw;
-    height: 40vh;
-    border-radius: 2em;
+    width: 90vw;
+    height: 35vh;
+    border-radius: 1em;
   }
   .section-abt-6 {
-    display: none;
-    padding-bottom: 3em;
+    padding: 3em 1em 3em 1em;
   }
   .section-abt-6 .abt-div {
-    text-align: center;
-    max-width: 950px;
-    justify-items: center;
-    margin: auto;
+    text-align: left;
   }
   .section-abt-6 .abt-div .welc {
     font-size: 1em;
     color: rgb(176, 176, 199);
     text-transform: uppercase;
     padding: 5em 0 3em 0;
-    text-align: center;
+    text-align: left;
   }
   .section-abt-6 .abt-div .abt-h1 {
     font-size: 2.5em;
@@ -4831,13 +4827,13 @@
   .section-abt-6 .abt-div .desc {
     font-size: 1.2em;
     line-height: 1.5em;
-    text-align: center;
+    text-align: left;
     max-width: 700px;
     margin: auto;
     padding-bottom: 3em;
   }
   .section-abt-6 .card {
-    margin: 0.2em 5em 3em 8em;
+    margin: 0.2em 0 3em 0;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -4845,11 +4841,11 @@
   .section-abt-6 .card .card-2 {
     border-radius: 0.5em;
     background-color: whitesmoke;
-    padding: 1em 0.3em;
-    width: 90%;
+    padding: 0.5em 0.3em;
+    width: 100%;
   }
   .section-abt-6 .card .card-2 .card-div {
-    padding: 2.5em 0 0 4em;
+    padding: 2.5em 0 0 0;
     display: flex;
     gap: 1em;
   }
@@ -4871,5 +4867,156 @@
   }
   .section-abt-6 .card .card-2 .card-div .info .card-desc .email-link {
     color: var(--primary-color);
+  }
+  .section-1-ser {
+    background-color: var(--primary-color);
+    padding: 4em 0;
+    margin-top: 2em;
+  }
+  .section-1-ser .ser-p {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding-bottom: 0.5em;
+  }
+  .section-1-ser .ser-li {
+    text-align: center;
+    list-style-type: none;
+    color: white;
+  }
+  .section-1-ser .ser-li .ser-a {
+    color: white;
+    text-decoration: none;
+  }
+  .section-1-ser .ser-li .ser-a:hover {
+    color: black;
+  }
+  .section-2-ser {
+    background-color: rgb(245, 244, 244);
+    padding: 5em 1em 2em 1em;
+  }
+  .section-2-ser .ser-div {
+    text-align: left;
+  }
+  .section-2-ser .ser-div .ser-h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 0 0 1em 0;
+  }
+  .section-2-ser .ser-div .ser-h1 span {
+    color: var(--primary-color);
+  }
+  .section-2-ser .ser-div .desc {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 3.5em;
+  }
+  .section-2-ser .card {
+    margin: 0.2em 0 3em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .section-2-ser .card .card-2 {
+    border-radius: 0.5em;
+    background-color: white;
+    padding: 1em 1.3em;
+    width: 100%;
+  }
+  .section-2-ser .card .card-2 .card-div {
+    padding: 5em 0 2em 1em;
+  }
+  .section-2-ser .card .card-2 .card-div .fa-solid {
+    font-size: 44px;
+    color: var(--secondary-color);
+  }
+  .section-2-ser .card .card-2 .card-div .card-h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  .section-2-ser .card .card-2 .card-div .card-desc {
+    line-height: 2em;
+    margin-bottom: 4em;
+    text-align: justify;
+  }
+  .section-2-ser .card .card-2 .card-div .read-more {
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  .section-3-ser {
+    background: url(../images/kdspeech\ 15.jpg);
+  }
+  .section-4-ser {
+    margin: 10em 2em 7em 2em;
+  }
+  .section-4-ser .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+  }
+  .section-4-ser .container .content .ser-us {
+    font-size: 1em;
+    color: rgb(176, 176, 199);
+    text-transform: uppercase;
+    padding: 0 0 3em 0;
+  }
+  .section-4-ser .container .content .sol {
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 2.8em;
+    margin-bottom: 1em;
+  }
+  .section-4-ser .container .content .sol span {
+    color: var(--primary-color);
+  }
+  .section-4-ser .container .content .ser-desc {
+    font-size: 1.2em;
+    line-height: 2em;
+    margin-bottom: 2em;
+  }
+  .section-4-ser .container .content .ser-ul {
+    padding-left: 1.1em;
+  }
+  .section-4-ser .container .content .ser-ul .ser-li {
+    line-height: 2em;
+    font-size: 1em;
+  }
+  .section-4-ser .container .img-div .ser-div {
+    width: 100%;
+    height: 100%;
+  }
+  .section-4-ser .container .img-div .ser-div .ser-img {
+    width: 45em;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    left: 0.5rem;
+  }
+  .section-4-ser .container .img-div .ser-div .ser-img-2 {
+    display: none;
+  }
+  .section-4-ser .button {
+    display: flex;
+    gap: 2em;
+    margin: 7em 0 0 0.5em;
+  }
+  .section-4-ser .button .ser-button {
+    list-style-type: none;
+  }
+  .section-4-ser .button .ser-button .button-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1em 1.3em;
+  }
+  .section-4-ser .button .ser-button .button-link:hover {
+    background-color: var(--secondary-color);
   }
 }/*# sourceMappingURL=styles.css.map */
