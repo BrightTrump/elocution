@@ -825,7 +825,7 @@
 }
 .section-abt-3 .card .card-div .abt-img {
   width: 20vw;
-  height: 40vh;
+  height: 45vh;
   border-radius: 50%;
 }
 .section-abt-3 .card .card-div .card-h1 {
@@ -1853,7 +1853,7 @@
   padding: 1em 3em 2em 3em;
 }
 .section-3-testimonial .container .test-vid {
-  width: 400px;
+  width: 300px;
   height: 300px;
 }
 .section-3-testimonial .btn {
