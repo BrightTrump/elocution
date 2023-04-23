@@ -1954,46 +1954,9 @@
 .section-2-contact .section-2-div .cont-div-2 .cont-desc-2 .reach-us:hover {
   color: var(--secondary-color);
 }
-.section-2-contact form {
-  margin: auto;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-size: 1.2em;
-}
-.section-2-contact form .form-block {
-  display: flex;
-  gap: 3em;
-  padding: 0 0 5em 0;
-}
-.section-2-contact form .form-block .form-name .text {
-  background-color: white;
-  border: 0px solid white;
-  border-radius: 0.5em;
-  padding: 2em 30em 2em 1em;
-}
-.section-2-contact form .check {
-  display: flex;
-  gap: 0.7em;
-  padding: 2em 0 4em 0;
-}
-.section-2-contact form .check .checkbox {
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 15em;
-}
-.section-2-contact form .form-btn {
-  list-style-type: none;
-}
-.section-2-contact form .form-btn .btn-link {
-  text-decoration: none;
-  background-color: var(--primary-color);
-  border-radius: 1em;
-  color: white;
-  padding: 1.2em 1.3em;
-}
-.section-2-contact form .form-btn .btn-link:hover {
-  color: var(--primary-color);
-  background-color: rgb(214, 212, 212);
+.section-2-contact .contact-iframe {
+  width: 1000px;
+  height: 959px;
 }
 
 .section-1-faqs {
