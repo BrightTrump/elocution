@@ -2,7 +2,7 @@
 var dropdownIcon = document.getElementById("dropdown-icon");
 var dropdown = document.getElementById("dropdown-ul");
 
-dropdownIcon.addEventListener("click", "mouseOver", () => {
+dropdownIcon.addEventListener("click", () => {
   dropdown.style.display = "block";
   dropdown.classList.toggle("mystyle");
   dropdown.style.display = "none";
