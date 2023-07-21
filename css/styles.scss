@@ -1272,10 +1272,9 @@
 }
 //diction.html, elocution.html and public.html
 .section-1-sersubs {
-  background: url(../images/ventures\ 3.jpg);
+  background: url(../images/ventures\ 6.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  //background-color: var(--primary-color);
   padding: 14em 0 12em 0;
   width: 100%;
   .sersubs-p {
@@ -1407,7 +1406,6 @@
   background: url(../images/dinning-etiquette\ \ 12.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  //background-color: var(--primary-color);
   padding: 12em 0 12em 0;
   .eti-p {
     font-size: 3em;
@@ -3273,7 +3271,9 @@
   }
   //diction.html, elocution.html and public.html
   .section-1-sersubs {
-    background-color: var(--primary-color);
+    background: url(../images/ventures\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     padding: 7em 0 8em 0;
     margin-top: 2em;
@@ -3380,7 +3380,7 @@
       padding: 1.2em 2em 4em 1em;
       margin: auto;
       .vid {
-        width: 700px;
+        width: 650px;
         height: 400px;
       }
     }
@@ -3404,7 +3404,9 @@
   }
   //etiquette.html
   .section-1-eti {
-    background-color: var(--primary-color);
+    background: url(../images/dinning-etiquette\ \ 12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 7em 0 8em 0;
     margin-top: 2em;
     .eti-p {
@@ -4097,7 +4099,7 @@
         justify-content: flex-end;
         width: 2em;
         height: 4em;
-        margin: 0;
+        margin: 0 0.5em 0 0;
         right: 0;
       }
       .logo {
@@ -5330,7 +5332,9 @@
   }
   //diction.html, elocution.html and public.html
   .section-1-sersubs {
-    background-color: var(--primary-color);
+    background: url(../images/ventures\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     padding: 4em 0;
     .sersubs-p {
@@ -5457,7 +5461,7 @@
   }
   //etiquette.html
   .section-1-eti {
-    background-color: var(--primary-color);
+    background: url(../images/dinning-etiquette\ \ 12.jpg);
     padding: 4em 0;
     .eti-p {
       font-size: 3em;

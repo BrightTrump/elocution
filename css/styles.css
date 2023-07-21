@@ -1253,7 +1253,7 @@
 }
 
 .section-1-sersubs {
-  background: url(../images/ventures\ 3.jpg);
+  background: url(../images/ventures\ 6.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 14em 0 12em 0;
@@ -3140,7 +3140,9 @@
     background-color: var(--secondary-color);
   }
   .section-1-sersubs {
-    background-color: var(--primary-color);
+    background: url(../images/ventures\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     padding: 7em 0 8em 0;
     margin-top: 2em;
@@ -3250,7 +3252,7 @@
     margin: auto;
   }
   .section-4-sersubs .container .vid {
-    width: 700px;
+    width: 650px;
     height: 400px;
   }
   .section-4-sersubs .btn {
@@ -3271,7 +3273,9 @@
     background-color: var(--secondary-color);
   }
   .section-1-eti {
-    background-color: var(--primary-color);
+    background: url(../images/dinning-etiquette\ \ 12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 7em 0 8em 0;
     margin-top: 2em;
   }
@@ -3946,7 +3950,7 @@
     justify-content: flex-end;
     width: 2em;
     height: 4em;
-    margin: 0;
+    margin: 0 0.5em 0 0;
     right: 0;
   }
   .navbar .container .logo {
@@ -5096,7 +5100,9 @@
     background-color: var(--secondary-color);
   }
   .section-1-sersubs {
-    background-color: var(--primary-color);
+    background: url(../images/ventures\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     padding: 4em 0;
   }
@@ -5223,7 +5229,7 @@
     background-color: var(--secondary-color);
   }
   .section-1-eti {
-    background-color: var(--primary-color);
+    background: url(../images/dinning-etiquette\ \ 12.jpg);
     padding: 4em 0;
   }
   .section-1-eti .eti-p {
