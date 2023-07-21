@@ -2060,8 +2060,8 @@
     background-attachment: scroll;
     background-size: cover;
     width: auto;
-    height: 50vh;
-    margin-top: 3em;
+    height: 70vh;
+    margin: 3em 0 0 0;
   }
   .section-1 .card {
     max-width: 820px;
