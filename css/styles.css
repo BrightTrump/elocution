@@ -1253,8 +1253,10 @@
 }
 
 .section-1-sersubs {
-  background-color: var(--primary-color);
-  padding: 7em 0 8em 0;
+  background: url(../images/ventures\ 3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14em 0 12em 0;
   width: 100%;
 }
 .section-1-sersubs .sersubs-p {
@@ -1273,7 +1275,8 @@
   text-decoration: none;
 }
 .section-1-sersubs .sersubs-li .sersubs-a:hover {
-  color: black;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 .section-2-sersubs {
@@ -1386,8 +1389,10 @@
 }
 
 .section-1-eti {
-  background-color: var(--primary-color);
-  padding: 7em 0 8em 0;
+  background: url(../images/dinning-etiquette\\\(12\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12em 0 12em 0;
 }
 .section-1-eti .eti-p {
   font-size: 3em;
@@ -1405,7 +1410,8 @@
   text-decoration: none;
 }
 .section-1-eti .eti-li .eti-a:hover {
-  color: black;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 .section-2-eti {

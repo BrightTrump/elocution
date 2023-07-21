@@ -1272,8 +1272,11 @@
 }
 //diction.html, elocution.html and public.html
 .section-1-sersubs {
-  background-color: var(--primary-color);
-  padding: 7em 0 8em 0;
+  background: url(../images/ventures\ 3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-color: var(--primary-color);
+  padding: 14em 0 12em 0;
   width: 100%;
   .sersubs-p {
     font-size: 3em;
@@ -1289,7 +1292,8 @@
       color: white;
       text-decoration: none;
       &:hover {
-        color: black;
+        color: var(--primary-color);
+        font-weight: bold;
       }
     }
   }
@@ -1400,8 +1404,11 @@
 }
 //etiquette.html
 .section-1-eti {
-  background-color: var(--primary-color);
-  padding: 7em 0 8em 0;
+  background: url(../images/dinning-etiquette\\\(12\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-color: var(--primary-color);
+  padding: 12em 0 12em 0;
   .eti-p {
     font-size: 3em;
     text-align: center;
@@ -1416,7 +1423,8 @@
       color: white;
       text-decoration: none;
       &:hover {
-        color: black;
+        color: var(--primary-color);
+        font-weight: bold;
       }
     }
   }
